@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   resources :articles
 
-root 'welcome#home'
+root 'pages#home'
 
-get 'about', to: 'welcome#about'
+get 'about', to: 'pages#about'
 
 end
